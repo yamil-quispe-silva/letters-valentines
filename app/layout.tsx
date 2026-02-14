@@ -26,7 +26,7 @@ const nunito = Nunito({
 });
 
 export const metadata = {
-  title: "Sarah's Valentine",
+  title: "Emi's Valentine",
   description: "A romantic surprise for someone special",
 };
 
