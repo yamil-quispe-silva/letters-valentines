@@ -1,0 +1,9 @@
+# This directory should contain your personal photos
+# Add 4 photos: photo1.jpeg, photo2.jpeg, photo3.jpeg, photo4.jpeg
+# See README.md for detailed instructions
+
+# Photo requirements:
+# - Format: JPEG recommended (PNG/GIF also supported)
+# - Size: 800x600px or larger recommended for best quality
+# - File names: MUST be photo1.jpeg, photo2.jpeg, photo3.jpeg, photo4.jpeg
+# - IMPORTANT: These photos will be ignored by git to protect your privacy
