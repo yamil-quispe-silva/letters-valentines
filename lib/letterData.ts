@@ -17,27 +17,11 @@ export interface ImageData {
 }
 
 export const letterData: LetterData = {
-  title: "{{LETTER_GREETING}}",
-  // Example: "Dear Sarah,", "My Dearest Love,", "Querida María,"
+  title: "My Dearest Sarah,",
 
-  body: "{{LETTER_BODY}}",
-  /*
-   * Write your personal letter here. This is the heart of your message!
-   *
-   * Tips:
-   * - Express what you love about them
-   * - Share favorite memories
-   * - Include inside jokes that are meaningful to you both
-   * - Be authentic and speak from the heart
-   * - Use \n\n for paragraph breaks
-   *
-   * Example structure:
-   * "Dear [Name],\n\n" +
-   * "First paragraph about how you feel...\n\n" +
-   * "Second paragraph with memories...\n\n" +
-   * "Closing thoughts...\n\n" +
-   * "With all my love,\n[Your Name]"
-   */
+  body: "Happy Valentine's Day, my love.\n\n" +
+    "A year ago today I knew right then that I was in trouble.\n\n" +
+    "Here's to every Valentine's Day still ahead of us.\n\nForever yours,\nJohn",
 
   images: [
     {

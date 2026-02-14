@@ -115,7 +115,7 @@ export default function CountdownTimer({ targetDate, message, onComplete }: Coun
         </div>
 
         <p className="countdown-subtitle">
-          Hasta San Valentin 💝
+          Feliz San Valentin 💝
         </p>
       </div>
     </div>

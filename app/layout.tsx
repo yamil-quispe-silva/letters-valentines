@@ -1,4 +1,4 @@
-import { Dancing_Script, Crimson_Text } from 'next/font/google';
+import { Dancing_Script, Crimson_Text, Nunito, Caveat } from 'next/font/google';
 import './globals.css';
 
 const dancingScript = Dancing_Script({
@@ -13,12 +13,21 @@ const crimsonText = Crimson_Text({
   variable: '--font-crimson'
 });
 
-export const metadata = {
-  title: '{{SITE_TITLE}}',
-  // Example: "For My Love", "Sarah's Valentine", "A Special Message"
+const caveat = Caveat({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-caveat'
+});
 
-  description: '{{SITE_DESCRIPTION}}',
-  // Example: "A romantic surprise for someone special"
+const nunito = Nunito({
+  subsets: ['latin'],
+  weight: ['800'],
+  variable: '--font-fredoka'
+});
+
+export const metadata = {
+  title: "Sarah's Valentine",
+  description: "A romantic surprise for someone special",
 };
 
 export default function RootLayout({
@@ -27,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="{{LANGUAGE_CODE}}" className={`${dancingScript.variable} ${crimsonText.variable}`}>
+    <html lang="en" className={`${dancingScript.variable} ${crimsonText.variable} ${nunito.variable} ${caveat.variable}`}>
       {/* Language code examples: "en" (English), "es" (Spanish), "fr" (French) */}
       <body>{children}</body>
     </html>

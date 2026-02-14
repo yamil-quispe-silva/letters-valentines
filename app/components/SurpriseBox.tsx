@@ -72,28 +72,12 @@ export default function SurpriseBox({ config }: SurpriseBoxProps) {
 
   return (
     <div className="surprise-box-container">
-      <div className="surprise-icon">🎁</div>
-
-      <div className="surprise-content">
-        <p className="surprise-message">
-          {isUnlocked ? config.unlockedMessage : config.waitingMessage}
-        </p>
-
-        {!isUnlocked && timeRemaining && (
-          <div className="surprise-timer">
-            {timeRemaining.days > 0 && `${timeRemaining.days}d `}
-            {formatNumber(timeRemaining.hours)}:
-            {formatNumber(timeRemaining.minutes)}:
-            {formatNumber(timeRemaining.seconds)}
-          </div>
-        )}
-
-        {isUnlocked && (
-          <button className="surprise-button" onClick={handleOpenGift}>
-            {config.buttonText}
-          </button>
-        )}
-      </div>
+      <p className="surprise-message">
+        {isUnlocked ? config.unlockedMessage : config.waitingMessage}
+      </p>
+      <button className="surprise-button" onClick={handleOpenGift}>
+        {config.buttonText}
+      </button>
     </div>
   );
 }
