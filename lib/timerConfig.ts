@@ -35,9 +35,9 @@ export const timerConfig: TimerConfig = {
 
 export const surpriseBoxConfig: SurpriseBoxConfig = {
   targetDate: getTimeInMinutes(2),  // Surprise unlocks in 2 minutes
-  waitingMessage: "A song that reminds me of you...",
-  unlockedMessage: "A song that reminds me of you...",
-  buttonText: "Open Gift",
+  waitingMessage: "A song that reminds me of us...",
+  unlockedMessage: "A song that reminds me of us...",
+  buttonText: "Open",
   youtubeUrl: "https://www.youtube.com/watch?v=QCZZwZQ4qNs&list=RDQCZZwZQ4qNs&start_radio=1&pp=ygUZa2Fyb2wgZyBodWJpZXJhcyBjb25vY2lkb6AHAQ%3D%3D",
   enabled: true
 };

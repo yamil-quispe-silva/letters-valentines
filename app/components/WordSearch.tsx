@@ -127,6 +127,11 @@ export default function WordSearch({ onComplete }: WordSearchProps) {
 
   return (
     <div className="ws-container">
+      <div className="ws-photo-frame">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/images/emiandyamil.jpg" alt="Emi and Yamil" className="ws-photo" />
+      </div>
+
       <div className="ws-card">
         <h1 className="ws-title">
           Find the 3 secret words<br />to unlock your surprise

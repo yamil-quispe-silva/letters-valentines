@@ -1,6 +1,5 @@
 {
-  "name": "{{PACKAGE_NAME}}",
-  "_comment": "Example: romantic-letter-site, valentine-surprise, letters-for-sarah",
+  "name": "letters-valentines",
   "version": "1.0.0",
   "private": true,
   "scripts": {

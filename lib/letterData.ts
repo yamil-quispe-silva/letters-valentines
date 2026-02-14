@@ -17,11 +17,13 @@ export interface ImageData {
 }
 
 export const letterData: LetterData = {
-  title: "My Dearest Sarah,",
+  title: "Mi amor, Emi ❤️",
 
-  body: "Happy Valentine's Day, my love.\n\n" +
-    "A year ago today I knew right then that I was in trouble.\n\n" +
-    "Here's to every Valentine's Day still ahead of us.\n\nForever yours,\nJohn",
+  body: "Happy Valentine's Day, mi amor.\n\n" +
+    "lo que comenzo como una coincidencia se convirtio en una de las cosas mas importantes en mi vida, y no tengo palabras para decirte lo mucho que te amo!\n\n" +
+    "soy la persona mas afortunada por tenerte en mi vida\n\n" +
+    "here is to many more valentines, trips, languages, books and kisses :)\n\n" +
+    "te amo siempre,\nYamil",
 
   images: [
     {
